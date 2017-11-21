@@ -14,11 +14,11 @@ a {
 }
 
 a:link {
-	color: yellow;
+	color: rgb(255, 0, 0);
 }
 
 a:visited {
-	color: yellow;
+	color: rgb(255, 0, 0);
 }
 
 
