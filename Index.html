@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<meta charset="utf-8">
 		<title>Midnight Pharmacy</title>
@@ -7,35 +8,150 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
     
-    
-    
+
 <header align=center>
-	
-	<h1>
-	Welcome to Midnight Pharmacy
-	</h1>
+		<div>
+				<img src="Images/logo.jpg" class = "logo" style= "float:left" width ="100px" 
+					alt="logo">
+				
+		</div>
 
 	<nav>
+<br>
+<br>
+<br>
+<br>
+
+
 			<ul>
 				<li><a href="Index.html" class="selected">Home</a></li>
 				<li><a href="Our services.html">Our Services</a></li>
-				<li><a href="Contact us.html">contact us</a></li>
+				<li><a href="Prescriptions.html">Prescriptions</a></li>
 				<li><a href="About us.html">About Us</a></li>
+				<li><a href="Contact us.html">contact us</a></li>
 				<li><a href="Report.html">Report</a></li>
 			</ul>	
+
+<br>
+
 	  </nav>
+
+
+	  
 	</header>
 	
-
-	<section>
 	
-		<p>
 	
+	<center>
+			<h1>
+				
+				Welcome to Midnight Pharmacy
+			  </h1>
+		 <p>
 			Welcome to Midnight Pharmacy. We are based in Nottingham and Bradford and we are here for you when you need us. 
 		
 		</p>
-	</section>
+	</center>
 	
+
+	
+	<div class="slideshow-container">
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 5</div>
+		  <img src="Images/MP nottingham.jpg" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 5</div>
+		  <img src="Images/MP bradford.jpg" style="width:100%">
+		  <div class="text">Caption Two</div>
+		  <h2 style="color: #d1b37e;">
+				Save 40% </h2>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 5</div>
+		  <img src="Images/toothbrush.jpg" style="width:100%">
+		  <div class="text">Electronic Toothbrush</div>
+			<h2 style="color: #d1b37e;">
+				Better than 1/2 price</h2>
+				
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="Images/hugo boss.jpg" style="width:100%">
+			<div class="text">Caption Four</div>
+		 </div>
+
+
+		 <div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="Images/sleep make up.jpg" style="width:100%">
+			<div class="text">Caption Five</div>
+		</div>
+
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		
+				var myIndex = 0;
+				carousel();
+				
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 4000); // Change image every 4 seconds
+				}
+				</script>
+
 	
 	</body>
 </html> 
