@@ -3,36 +3,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<meta charset="utf-8">
-		<title>About us</title>
+		<title>Midnight Pharmacy</title>
 		<link href='https://fonts.googleapis.com/css?family=Lato|Droid+Serif' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="main.css">
 	</head>
     
-    
-    
-	<header align=center>
-			<div>
-					<img src="Images/logo.jpg" class = "logo" style= "float:left" width ="100px" 
-						alt="logo">
-					
-			</div>
-	
-		<nav>
-	<br>
-	<br>
-	<br>
-	<br>
-	
-	
-				<ul>
-						<li><a href="Index.html" class="selected">Home</a></li>
-						<li><a href="Our services.html">Our Services</a></li>
-						<li><a href="Prescriptions.html">Prescriptions</a></li>
-						<li><a href="About us.html">About Us</a></li>
-						<li><a href="Contact us.html">contact us</a></li>
-						<li><a href="Report.html">Report</a></li>
-				</ul>	
 
+<header align=center>
+		<div>
+				<img src="Images/logo.jpg" class = "logo" style= "float:left" width ="100px" 
+					alt="logo">
+				
+		</div>
+
+	<nav>
+<br>
+<br>
+<br>
+<br>
+
+
+			<ul>
+				<li><a href="Index.html" class="selected">Home</a></li>
+				<li><a href="Our services.html">Our Services</a></li>
+				<li><a href="Prescriptions.html">Prescriptions</a></li>
+				<li><a href="About us.html">About Us</a></li>
+				<li><a href="Contact us.html">contact us</a></li>
+				<li><a href="leaflets.html">leaflets</a></li>
+				<li><a href="Report.html">Report</a></li>
+			</ul>	
+
+<br>
 
 	  </nav>
 
@@ -54,5 +55,83 @@
 	</center>
 	</section>
 	  
+
+
+
+
+    <h3 id= "Nottingham" >Nottingham</h3>
+    <h3 id = "Bradford" >Bradford</h3>
+
+    <div id="NottinghamMap" style="width:450px;height:600px; position: absolute; left: 100px; top: 600px;" /div></div>
+    <div id="BradfordMap" style="width:450px;height:600px; position: absolute; left: 600px; top: 600px;" /div></div>
+
+    <script>
+        /* Nottingham Map*/
+
+        
+            function map() {       
+                var mapCanvas1 = document.getElementById("NottinghamMap");       
+				var mapCanvas2 = document.getElementById("BradfordMap"); 
+				
+                var myCenter1 = new google.maps.LatLng(52.960696, -1.168905);    
+				var myCenter2 = new google.maps.LatLng(53.787062, -1.774534);  
+				
+				
+                var mapOptions1 = {
+                    center: myCenter1,
+                    zoom: 17
+                };       
+				var mapOptions2 = {
+                    center: myCenter2,
+                    zoom: 17
+                };    
+				
+				
+                var map1 = new google.maps.Map(mapCanvas1, mapOptions1);   
+				var map2 = new google.maps.Map(mapCanvas2, mapOptions2); 
+				    
+                var marker1 = new google.maps.Marker({       
+                    position: myCenter1,
+                           animation: google.maps.Animation.BOUNCE       
+                });       
+				
+				var marker2 = new google.maps.Marker({      
+                    position: myCenter2,
+                          animation: google.maps.Animation.BOUNCE      
+                });   
+				
+				
+                marker1.setMap(map1);
+				marker2.setMap(map2);           
+				
+				
+                var infowindow1 = new google.maps.InfoWindow({       
+                    content: "Midnight Pharmacy <br> 194 Alfreton Rd <br> Nottingham <br> NG7 3PE <br> UK"
+                });                  
+                infowindow1.open(map1, marker1);
+				
+				var infowindow2 = new google.maps.InfoWindow({      
+                    content: "Midnight Pharmacy <br> 194 Alfreton Rd <br> Bradford <br> NG7 3PE <br> UK"
+                });                 
+				 
+                infowindow2.open(map2, marker2);    
+            }
+
+            
+                     
+                   
+             
+                
+            
+
+        
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcgS2zgCR2gQd75s7BIR2B1r6wiPu5mHI&callback=map"></script>
+
+
+
+
+
 	  </body>
   </html> 
