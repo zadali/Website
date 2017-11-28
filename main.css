@@ -35,8 +35,13 @@ body {
 	background-color: rgb(0, 0, 0);
 }
 p{
-	color: white;
+  color: white;
 }
+.details {
+margin: 0 auto;
+width: 80%;
+}
+
 ul {
 	color: white;
 }
