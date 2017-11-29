@@ -110,7 +110,8 @@ nav {
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
+ 
 }
 
 nav ul {
@@ -135,24 +136,24 @@ nav a, nav a:visited {
 }
 
 	nav a:hover {
-	background-image: linear-gradient(#4d94ff,#4d94ff);
+	background-image: linear-gradient(#000000,#00F721);
 }
 
-/* logo animation
-img{
+  
+ #logo {
 	width:100px;
 	float:left;
 }
 
 
-div {
+.logo div {
     width: 100px;
     height: 100px;
     
     position: relative;
     animation-name: example;
     animation-duration: 4s;
-} */
+}
 
 
 
@@ -265,7 +266,7 @@ body {font-family: Verdana,sans-serif;margin:0}
   .prev, .next,.text {font-size: 11px}
 }
 
-/* Navigation */
+/* Navigation map */
 
 NottinghamMap {
   position: absolute;
@@ -376,7 +377,13 @@ body {
   width: 33.33%;
   padding: 10px;
   height: 300px;
+
 }
+  /* hover to change colour of the columns on the main page*/
+div.column :hover{
+  background-color: #00F721;
+  }
+
 
 /* Clear floats after the columns */
 .row:after {
