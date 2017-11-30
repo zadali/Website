@@ -9,36 +9,26 @@
 	</head>
     
 
-<header align=center>
-		<div>
-				<img src="Images/logo.jpg" class = "logo" style= "float:left" width ="100px" 
-					alt="logo">
+	<header align=center>
+		
+		
+				<div id="logo" >
+						<img id="logo" src="Images/logo.jpg" alt="logo" >
+						
+				</div>
+		
+				<a id="menu" href="#">Menu</a>		
+				<nav id="nav-menu">
+				<a href="index.html" class="selected">Home</a>
+				<a href="ourservices.html">Our Services</a>
+				<a href="prescriptions.html">Prescriptions</a>
+				<a href="aboutus.html">About Us</a>
+				<a href="contactus.html">contact us</a>
+				<a href="leaflets.html">leaflets</a>
+				<a href="report.html">Report</a>
+					</nav>	
 				
-		</div>
-
-	<nav>
-<br>
-<br>
-<br>
-<br>
-
-
-			<ul>
-				<li><a href="Index.html" class="selected">Home</a></li>
-				<li><a href="Our services.html">Our Services</a></li>
-				<li><a href="Prescriptions.html">Prescriptions</a></li>
-				<li><a href="About us.html">About Us</a></li>
-				<li><a href="Contact us.html">contact us</a></li>
-				<li><a href="leaflets.html">leaflets</a></li>
-				<li><a href="Report.html">Report</a></li>
-			</ul>	
-
-<br>
-
-	  </nav>
-
-	</header>
-  
+			</header>
 	<section>
 		<center>
 
@@ -57,16 +47,19 @@
 	  
 
 
-
-
-    <h3 id= "Nottingham" >Nottingham</h3>
-    <h3 id = "Bradford" >Bradford</h3>
-
-    <div id="NottinghamMap" style="width:450px;height:600px; position: absolute; left: 100px; top: 600px;" /div></div>
-    <div id="BradfordMap" style="width:450px;height:600px; position: absolute; left: 600px; top: 600px;" /div></div>
+<section class="maps"> 
+    <div>
+		<h3 id="Nottingham">Nottingham</h3>
+		<div id="NottinghamMap" class="googlemap"></div>
+	</div>
+    <div>
+		<h3 id="Bradford">Bradford</h3>
+		<div id="BradfordMap" class="googlemap"></div>
+	</div>
+</section>
 
     <script>
-        /* Nottingham Map*/
+        /* Nottingham Map and bradford map*/
 
         
             function map() {       
@@ -118,12 +111,6 @@
             }
 
             
-                     
-                   
-             
-                
-            
-
         
     </script>
 
@@ -132,6 +119,6 @@
 
 
 
-
+	<script src="javascript/main.js"></script>
 	  </body>
   </html> 
