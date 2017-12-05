@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<title>Midnight Pharmacy</title>
 		<link href='https://fonts.googleapis.com/css?family=Lato|Droid+Serif' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="../css/main.css">
 	</head>
     
 
@@ -13,48 +13,25 @@
         
         
                 <div id="logo" >
-                        <img id="logo" src="Images/logo.jpg" alt="logo" >
+                        <img id="logo" src="../Images/logo.jpg" alt="logo" >
                         
                 </div>
         
                 <a id="menu" href="#">Menu</a>		
-                <nav id="nav-menu">
-                <a href="index.html" class="selected">Home</a>
-                <a href="ourservices.html">Our Services</a>
-                <a href="prescriptions.html">Prescriptions</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="contactus.html">contact us</a>
-                <a href="leaflets.html">leaflets</a>
-                <a href="report.html">Report</a>
-                </nav>
+                <nav id="nav-menu">	
+                    <a href="../index.html" class="selected">Home</a>
+                    <a href="ourservices.html">Our Services</a>
+                    <a href="prescriptions.html">Prescriptions</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="contactus.html">contact us</a>
+                    <a href="leaflets.html">leaflets</a>
+                    <a href="report.html">Report</a>
+                </nav>	
                     
             </header>
             
 </center>
-<!-- html for search bar -->
-<input type="text" name="search" placeholder="Search..">
 
-<!-- css for search bar  -->
-    <style> 
-        input[type=text] {
-                width: 130px;
-                box-sizing: border-box;
-                border: 2px solid #ccc;
-                border-radius: 4px;
-                font-size: 16px;
-                background-color: white;
-                background-image: url('searchicon.png');
-                background-position: 10px 10px; 
-                background-repeat: no-repeat;
-                padding: 12px 20px 12px 40px;
-                -webkit-transition: width 0.4s ease-in-out;
-                transition: width 0.4s ease-in-out;
-        }
-        
-        input[type=text]:focus {
-                width: 100%;
-        }
-        </style>
 
 <center>
 
@@ -87,7 +64,7 @@
 
 <body>
 
-
+<div class="table">
     <table>
         <tr>
             <th> Details</th>
@@ -126,39 +103,44 @@
             <td>Zad@midnightpharmacy.com</td>
         </tr>
     </table>
+</div>
+
+    <p> Please sumbit any questions using the form below. One of our staff members will contact you back</p>
 
 	<div class="container">
             <form action="">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+         
+              
+              <input type="" id="fname" name="firstname" placeholder=" Name..">
+            
+              <input id="lname" name="lastname" placeholder="Last Name..">
+           
+              <input  id="number" name="contactnumber" placeholder="Contact Number..">
+           
 
-              <label for="number">Contact Number</label>
-              <input type="text" id="number" name="contactnumber" placeholder="contact number..">
-          
-              <label for="Branch">Pharmacy branch</label>
+            <div> 
+              <label id= "branch" for="Branch">Pharmacy branch</label>
               <select id="Branch" name="Branch">
                 <option value="Nottingham">Nottingham</option>
                 <option value="Bradford">Bradford</option>
               </select>
+            </div>
+
+
+
+          <div>
+
           
-              <label for="subject">Subject</label>
+              <label id="subjectlabel" for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
+            </div>
               <input type="submit" value="Submit">
           
             </form>
           </div>
     
 
-          <script src="javascript/main.js"></script>
-
-
-
-
+          <script src="../javascript/main.js"></script>
 
 
 
