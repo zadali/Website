@@ -1,7 +1,7 @@
 /*java code for responsiveness*/
 (function(){
     
-   console.log("hellO");
+  
       let menuButton = document.getElementById("menu");
       let navMenu = document.getElementById("nav-menu");
     
