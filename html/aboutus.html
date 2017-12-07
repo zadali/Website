@@ -18,41 +18,43 @@
 				</div>
 		
 				<a id="menu" href="#">Menu</a>		
-				<nav id="nav-menu">	
-				<a href="../index.html" class="selected">Home</a>
-				<a href="ourservices.html">Our Services</a>
-				<a href="prescriptions.html">Prescriptions</a>
-				<a href="aboutus.html">About Us</a>
-				<a href="contactus.html">contact us</a>
-				<a href="leaflets.html">leaflets</a>
-				<a href="report.html">Report</a>
-				</nav>	
 				
+				<nav id="nav-menu">	
+					<a href="../index.html" class="selected">Home</a>
+					<a href="ourservices.html">Our Services</a>
+					<a href="prescriptions.html">Prescriptions</a>
+					<a href="aboutus.html">About Us</a>
+					<a href="contactus.html">contact us</a>
+					<a href="leaflets.html">leaflets</a>
+					<a href="report.html">Report</a>
+				</nav>		
+					
 			</header>
-
+			
 	<!-- html for search bar -->
 	<input type="text" name="search" placeholder="Search..">
-	
-		
+
+
 	<section>
+		<!-- centre tag used to centre the header tag -->
 		<center>
 
-		
+
 		<h1>About Us</h1>
 		<p>
-			Midnight pharmacy is known for providing excellent care and customer service to meet individuals needs till midnight 7 days a week.  
-			
-			We currently have two branches; one is in Nottingham and one is in Bradford. Our first branch was opened in Bradford in 2009. We quickly expanded and in 2010 we opened a second branch in Nottingham. 
-			
-			We provide a range of different kind of services to suit individuals and care home needs. Please see our services page for more information. 
-			
+			Midnight pharmacy is known for providing excellent care and customer service to meet individuals needs till midnight 7 days a week.
+
+			We currently have two branches; one is in Nottingham and one is in Bradford. Our first branch was opened in Bradford in 2009. We quickly expanded and in 2010 we opened a second branch in Nottingham.
+
+			We provide a range of different kind of services to suit individuals and care home needs. Please see our services page for more information.
+
 		</p>
 	</center>
 	</section>
-	  
 
 
-<section class="maps"> 
+<!-- This is code for the google maps -->
+<section class="maps">
     <div>
 		<h3 id="Nottingham">Nottingham</h3>
 		<div id="NottinghamMap" class="googlemap"></div>
@@ -63,67 +65,11 @@
 	</div>
 </section>
 
-    <script>
-        /* Nottingham Map and bradford map*/
-
-        
-            function map() {       
-                var mapCanvas1 = document.getElementById("NottinghamMap");       
-				var mapCanvas2 = document.getElementById("BradfordMap"); 
-				
-                var myCenter1 = new google.maps.LatLng(52.960696, -1.168905);    
-				var myCenter2 = new google.maps.LatLng(53.787062, -1.774534);  
-				
-				
-                var mapOptions1 = {
-                    center: myCenter1,
-                    zoom: 17
-                };       
-				var mapOptions2 = {
-                    center: myCenter2,
-                    zoom: 17
-                };    
-				
-				
-                var map1 = new google.maps.Map(mapCanvas1, mapOptions1);   
-				var map2 = new google.maps.Map(mapCanvas2, mapOptions2); 
-				    
-                var marker1 = new google.maps.Marker({       
-                    position: myCenter1,
-                           animation: google.maps.Animation.BOUNCE       
-                });       
-				
-				var marker2 = new google.maps.Marker({      
-                    position: myCenter2,
-                          animation: google.maps.Animation.BOUNCE      
-                });   
-				
-				
-                marker1.setMap(map1);
-				marker2.setMap(map2);           
-				
-				
-                var infowindow1 = new google.maps.InfoWindow({       
-                    content: "Midnight Pharmacy <br> 194 Alfreton Rd <br> Nottingham <br> NG7 3PE <br> UK"
-                });                  
-                infowindow1.open(map1, marker1);
-				
-				var infowindow2 = new google.maps.InfoWindow({      
-                    content: "Midnight Pharmacy <br> 354 Great Horton Road <br> Bradford <br> BD7 1QJ <br> UK"
-                });                 
-				 
-                infowindow2.open(map2, marker2);    
-            }
-
-            
-        
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcgS2zgCR2gQd75s7BIR2B1r6wiPu5mHI&callback=map"></script>
 
 
+<script  type="text/javascript" src="../javascript/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcgS2zgCR2gQd75s7BIR2B1r6wiPu5mHI&callback=initMap" async defer ></script>
 
 
-	<script src="../javascript/main.js"></script>
 	  </body>
-  </html> 
+  </html>

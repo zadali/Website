@@ -18,17 +18,24 @@ Problem and issues solved
 
 One major issue which I faced was when I was creating the google map APIs for one the “about us.html” web page. The error which I was getting was “you have included google map APIs multiple times on this page. This may cause unexpected errors”. When this error occurred, one of the google maps would disappear from the HTML page and the other one would only show as an image and not as a JavaScript map. (see image 1). It took me approximately 6 hours to resolve this problem after conducting hours of research. This problem was occurring because I was trying to include two google maps on one html page with two APIs. In order to resolve this, I had to create two separate DIVs. One for each map and then put both the DIVs using a VAR function (see image 2). I was then able to use one API for the VAR which had two separate DIVs. Within the DIVs I had two separate locations being used by using different longitude and latitude numbers. 
 
+another problem which I had was taking the javascrip out of html and putting it in an exernal .js file. when I...............
 
-![](Images/api error.jpg) 
 
 Image 1 – API problem (see images tab "api error.jpg)
- 
+ ![](Images/apierror.jpeg) 
 
 Image 2 – API problem resolved (see images folder "Api problem resolved").
  
+![](Images/apiproblemresolved.png) 
 
 
 
+
+
+
+
+
+storyboard 
 
 
 

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
+
 <html>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
 	<head>
 		<meta charset="utf-8">
 		<title>Midnight Pharmacy</title>
 		<link href='https://fonts.googleapis.com/css?family=Lato|Droid+Serif' rel='stylesheet' type='text/css'>
+		
 		<link rel="stylesheet" href="../css/main.css">
+		
 	</head>
     
 
@@ -35,7 +39,6 @@
 	
 	
 
-
  
       <center>
       <p>
@@ -45,173 +48,154 @@
 	</center>
 	  </p>
 
-
-	  <p>Click on the buttons inside the tabbed menu:</p>
-
-	  
-	  <div class="tab">
-	
-		<button class="tablinks" onclick="openCity(event, 'Professional Pharmacy Services')" id="defaultOpen">Professional Pharmacy Services</button>
-		<button class="tablinks" onclick="openCity(event, 'Retail Pharmacy Services')">Retail Pharmacy Services</button>
-	  </div>
-	  
-	  <div id="Professional Pharmacy Services" class="tabcontent">
-		<h3>Professional Pharmacy Services</h3>
-		<p><div class="tab_container">
-			<div style="display: block;" id="tab1" class="tab_content">
-								   
-						<div id="proff_1">
-							<div class="contentheading02"><a name="33436"></a>Care Home Services</div>We offer a comprehensive dispensing, training, and pharmacist support service for care homes seven days a week to midnight. (Also see attached document)                                                    
-													</div><br>
-										   
-						<div id="proff_2">
-							<div class="contentheading02"><a name="33435"></a>Community Dossette Service</div>We can package your medication into a range of compliance aids to help you to remember to take your medicines at the right time.                                                    
-													</div><br>
-										   
-						<div id="proff_3">
-							<div class="contentheading02"><a name="33432"></a>Free prescription delivery service</div>We can deliver your prescription free of charge to any location in Nottinghamshire (delivery outside of nottingham may be chargable)                                                    
-													</div><br>
-										   
-						<div id="proff_4">
-							<div class="contentheading02"><a name="33438"></a>Medicines Use Reviews</div>We are able to offer you an annual medicine check-up to ensure you are taking your prescribed medication correctly. Our expert pharmacists will then speak to your GP if any changes need to be made to your treatments.                                                    
-													</div><br>
-										   
-						<div id="proff_5">
-							<div class="contentheading02"><a name="33433"></a>NHS prescription collection service</div>We can pick up your prescriptions from your surgery and have it ready for you to collect at a time suitable to you.                                                   
-													</div><br>
-										   
-						<div id="proff_6">
-							<div class="contentheading02"><a name="33430"></a>NHS prescription dispensing service</div>We can dispense any NHS prescriptions we pick up from your surgery or you bring to us, or send to us.                                                   
-													</div><br>
-										   
-						<div id="proff_7">
-							<div class="contentheading02"><a name="33429"></a>Substance Misuse Services</div>Supervision of consumption of methadone and subutex for patients being treated for substance misuse, service runs to midnight seven days a week.                                                    
-													</div><br>
-								</div>
-								
-				</div></p>
-	  </div>
-
-
-
+	  <main class="tab_container">
 
 	  
-	  
-	  <div id="Retail Pharmacy Services" class="tabcontent">
-		<h3>Retail Pharmacy Services</h3>
-		<p><div style="display: block;" id="tab2" class="tab_content">
-			
- 
-  <div id="retail_1">
-	  <div class="contentheading02"><a name="33426"></a>Blood pressure checking service</div>Pop in to have your blood pressure checked for free - no appointment needed.                                                                            
-		  
-		  
+    <input id="tab1" type="radio" name="tabs" checked>
+    <!-- the *label* for the radio button forms the clickable tabs -->
+    <label for="tab1"><i class="fa fa-code"></i>Professional Pharmacy Services</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2"><i class="fa fa-hashtag"></i>Retail Pharmacy Services</label>
+
+     <!-- content for tab 1: Professionl pharmay services -->
+	 <section id="content1" class="tab-content">
+		<header>
+		  <h2>Professional Pharmacy Services</h2>
+		</header>
+
+		<div id="proff_1">
+			<div class="contentheading02"><a name="33436"></a> <strong> <u>	Care Home Services </strong> </u> </div>We offer a comprehensive dispensing, training, and pharmacist support service for care homes seven days a week to midnight. (Also see attached document)                                                    
+									</div><br>
+						   
+		<div id="proff_2">
+			<div class="contentheading02"><a name="33435"></a> <strong> <u> Community Dossette Service </strong> </u> </div>We can package your medication into a range of compliance aids to help you to remember to take your medicines at the right time.                                                    
+									</div><br>
+						   
+		<div id="proff_3">
+			<div class="contentheading02"><a name="33432"></a> <strong> <u> Free prescription delivery service </strong> </u> </div>We can deliver your prescription free of charge to any location in Nottinghamshire (delivery outside of nottingham may be chargable)                                                    
+									</div><br>
+						   
+		<div id="proff_4">
+			<div class="contentheading02"><a name="33438"></a> <strong> <u> Medicines Use Reviews</strong> </u> </div>We are able to offer you an annual medicine check-up to ensure you are taking your prescribed medication correctly. Our expert pharmacists will then speak to your GP if any changes need to be made to your treatments.                                                    
+									</div><br>
+						   
+		<div id="proff_5">
+			<div class="contentheading02"><a name="33433"></a> <strong> <u> NHS prescription collection service </strong> </u></div>We can pick up your prescriptions from your surgery and have it ready for you to collect at a time suitable to you.                                                   
+									</div><br>
+						   
+		<div id="proff_6">
+			<div class="contentheading02"><a name="33430"></a> <strong> <u> NHS prescription dispensing service </strong> </u></div>We can dispense any NHS prescriptions we pick up from your surgery or you bring to us, or send to us.                                                   
+									</div><br>
+						   
+		<div id="proff_7">
+			<div class="contentheading02"><a name="33429"></a> <strong> <u> Substance Misuse Services </strong> </u></div>Supervision of consumption of methadone and subutex for patients being treated for substance misuse, service runs to midnight seven days a week.                                                    
+									</div><br>
+				</div>
+				
+</div></p>
+</div> 
+
+
 		
-						  </div><br>
-					
- 
-  <div id="retail_2">
-	  <div class="contentheading02"><a name="33428"></a>Cholesterol testing services</div>Cholesterol testing service available - a charge may be payable                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_3">
-	  <div class="contentheading02"><a name="33427"></a>Diabetes testing service</div>Pop in to have your blood glucose measured for free - no appointment needed.                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_4">
-	  <div class="contentheading02"><a name="33437"></a>Erectile Dysfunction medication</div>We provide a full Erectile Dysfunction clinic and can provide prescription strength medication after a consultation with our pharmacist.                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_5">
-	  <div class="contentheading02"><a name="33441"></a>Hajj and Umrah Vaccination</div>Private vaccination service for pilgrims going on the Hajj or Umrah. Meeting the visa requirements of the Saudi government for Meningitis ACWY vaccination.                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_6">
-	  <div class="contentheading02"><a name="33424"></a>Malaria Clinic</div>We can supply prescription medicines for prevention of malaria - no appointment or prescription needed.                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_7">
-	  <div class="contentheading02"><a name="33425"></a>Private Prescription service</div>We can dispense private prescriptions at very competitive rates                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_8">
-	  <div class="contentheading02"><a name="33439"></a>Private Stop Smoking Service</div>Private stop smoking service also available with prescription strength medication, subject to consultation with our pharmacist                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_9">
-	  <div class="contentheading02"><a name="33434"></a>Travel Vaccination Clinic</div>We offer a comprehensive travel vaccination service, including yellow fever vaccine, Hepatitis B, Typhoid, Rabies and many others.                                                                            
-		  
-		  
-		  
-						  </div><br>
-					
- 
-  <div id="retail_10">
-	  <div class="contentheading02"><a name="33440"></a>Weight Loss Clinic</div>Prescription strength medicines available to support you in your weight loss targets. Subject to consultation with our pharmacist.                                                                            
-		  
-		  
-		  
-						  </div><br>
-		  </div></p> 
-	  </div>
-	
-	  
-
-	  
-	  <script>
-	  function openCity(evt, cityName) {
-		  var i, tabcontent, tablinks;
-		  tabcontent = document.getElementsByClassName("tabcontent");
-		  for (i = 0; i < tabcontent.length; i++) {
-			  tabcontent[i].style.display = "none";
-		  }
-		  tablinks = document.getElementsByClassName("tablinks");
-		  for (i = 0; i < tablinks.length; i++) {
-			  tablinks[i].className = tablinks[i].className.replace(" active", "");
-		  }
-		  document.getElementById(cityName).style.display = "block";
-		  evt.currentTarget.className += " active";
-	  }
-	  
-		// Get the element with id="defaultOpen" and click on it
-		document.getElementById("defaultOpen").click();
+	  </section>
+  
+	  <!-- content for tab 2: Retail pharmacy Service -->
+	  <section id="content2" class="tab-content">
+		<header>
+		  <h2>Retail Pharmacy Services</h2>
+		</header>
+  
 		
-	  </script>
+		<div id="retail_1">
+			<div class="contentheading02"><a name="33426"></a> <strong> <u>Blood pressure checking service </strong> </u> </div>Pop in to have your blood pressure checked for free - no appointment needed.                                                                            
+				
+				
+			  
+								</div><br>
+						  
+	   
+		<div id="retail_2">
+			<div class="contentheading02"><a name="33428"></a> <strong> <u>Cholesterol testing services </strong> </u> </div>Cholesterol testing service available - a charge may be payable                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_3">
+			<div class="contentheading02"><a name="33427"></a> <strong> <u> Diabetes testing service </strong> </u> </div>Pop in to have your blood glucose measured for free - no appointment needed.                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_4">
+			<div class="contentheading02"><a name="33437"></a> <strong> <u> Erectile Dysfunction medication </strong> </u> </div>We provide a full Erectile Dysfunction clinic and can provide prescription strength medication after a consultation with our pharmacist.                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_5">
+			<div class="contentheading02"><a name="33441"></a> <strong> <u> Hajj and Umrah Vaccination </strong> </u> </div>Private vaccination service for pilgrims going on the Hajj or Umrah. Meeting the visa requirements of the Saudi government for Meningitis ACWY vaccination.                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_6">
+			<div class="contentheading02"><a name="33424"></a> <strong> <u> Malaria Clinic </strong> </u> </div>We can supply prescription medicines for prevention of malaria - no appointment or prescription needed.                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_7">
+			<div class="contentheading02"><a name="33425"></a> <strong> <u> Private Prescription service</strong> </u> </div>We can dispense private prescriptions at very competitive rates                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_8">
+			<div class="contentheading02"><a name="33439"></a> <strong> <u> Private Stop Smoking Service </strong> </u> </div>Private stop smoking service also available with prescription strength medication, subject to consultation with our pharmacist                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_9">
+			<div class="contentheading02"><a name="33434"></a> <strong> <u> Travel Vaccination Clinic </strong> </u> </div>We offer a comprehensive travel vaccination service, including yellow fever vaccine, Hepatitis B, Typhoid, Rabies and many others.                                                                            
+				
+				
+				
+								</div><br>
+						  
+	   
+		<div id="retail_10">
+			<div class="contentheading02"><a name="33440"></a> <strong> <u> Weight Loss Clinic</strong> </u> </div>Prescription strength medicines available to support you in your weight loss targets. Subject to consultation with our pharmacist.                                                                            
+				
+				
+				
+								</div><br>
+				</div></p> 
+			</div>
+		
+	  </section>
+	</main>
 	
 
 
-
-
-
-	<script src="../javascript/main.js"></script>
+<script src="../javascript/main.js"></script>
 
 	</body>
+	
 </html> 
+
