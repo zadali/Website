@@ -1,6 +1,6 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
-@media screen and (min-width: 250px) {
+/* @media screen and (min-width: 250px) { */
  
   /*General code for website layout*/
 #wrapper {
@@ -183,7 +183,7 @@ nav a:hover {
 .slideshow {
   /* margin: 2em auto 1em;*/
    max-width: 1000px; /* altering this breaks the centering??? */
-   height: 400px;
+   height: 150px;
    overflow: hidden;
    position: relative;
    margin: auto;
@@ -476,7 +476,7 @@ padding: 1px 45px;
   border: none;
   width: 100%;
 }
-}/* END OF MOBILE BREAKPOINT*/
+/* }END OF MOBILE BREAKPOINT */
 
 
 
@@ -501,6 +501,13 @@ padding: 1px 45px;
     height:600px; 
     border: 2px solid #00FF22;
   }
+  /*SLIDESHOW PURE CSS*/
+.slideshow {
+   height: 300px;
+ }
+ 
+
+
   
 } /* END FIRST BREAKPOINT */
 
@@ -564,6 +571,11 @@ padding: 1px 45px;
    margin-left: auto;
    margin-right: auto;
   } 
+    /*SLIDESHOW PURE CSS*/
+.slideshow {
+  height: 400px;
+}
+
   
 
 }
