@@ -441,6 +441,7 @@ p {
   margin-right: 100px;
   }
   
+  
 /*hover over image */
 /* this is css for hover over image on prescriptions page */
 .container {
@@ -617,7 +618,7 @@ input[type="checkbox"] ~ ul {
    * set a very big value (e.g. 9999px) to see the difference
    */
   
-  max-height: 300px;
+  max-height: 850px;
 }
 
 [type="checkbox"]:checked + #infotab {
