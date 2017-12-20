@@ -618,11 +618,12 @@ input[type="checkbox"] ~ ul {
    * set a very big value (e.g. 9999px) to see the difference
    */
   
-  max-height: 850px;
+  max-height: 100%;
 }
 
 [type="checkbox"]:checked + #infotab {
   top: 100%;
+  
 }
 
 [type="checkbox"]:checked + #infotab:before {
