@@ -31,7 +31,7 @@ Image 2 – API problem resolved (see images folder "Api problem resolved").
 
 2. Storyboard 
 
-I have included y-frames of the website in the storyboard folder. I have also attached them below with the hyperlinks. 
+I have included wire-frames of the website in the storyboard folder. I have also attached them below with the hyperlinks. 
 
 Index page - ![](Storyboards/page1.jpg) 
 Our services page - ![](Storyboards/page2.jpg) 
@@ -43,27 +43,44 @@ Feedback page - ![](Storyboards/page7.jpg)
 
 
 3. User Testing
+
 Testing questionnaire - ![](Testing/Questionnaire.png)
+
+
+Testing reults 
 
 I have also conducted user testing of my website to see what users have to say about my website and if there are any improvments which I can make. I have created a questionaire and gave it to 5 users to test. One of the main improvemtns which I recieved was that I should consider having a footer on my website. this is because it would give the website a better look and feel of a good professional website. I have taken this on board and have decided to create a footer for my website. (Footer improvement - ![](Testing/footer.png))
 
-Another improvement was for the "leaflets page". the download links for the leaflet pdf were just text and an improvment from some of the users were that I should consider using images as downlaod images instead of text. I have therefore changed this and have included images as the download links for the pdf leaflets. (Leaflet improvement - ![](Testing/leaflet_page.png))
+Another improvement was for the "leaflets page". The download links for the leaflet pdf were just text and an improvment from some of the users were that I should consider using images as downlaod images instead of text. I have therefore changed this and have included images as the download links for the pdf leaflets. (Leaflet improvement - ![](Testing/leaflet_page.png))
 
 Another improvement highlighted by a few of the users was that I should change the name of the final page from "Report" to "feedback". This is because the users didn't identify any prolems with the website so instead thought it would be better to change the name of the webpage to feedback which of course can be on going and feedback is always welcome on board. (![](Testing/Feedback.png)))
 
 
-Response 1 - talha 1
-Response 2 - talha 2
-Response 3 - talha 2
-Response 4 - 
-Response 5 - 
+Response 1 - ![](Testing/tester1.jpg)
+Response 2 - ![](Testing/tester2.jpg)
+Response 3 - ![](Testing/tester3.jpg)
+Response 4 - ![](Testing/tester4.jpg)
+Response 5 - ![](Testing/tester5.jpg)
+
+4. changes after user testing opinions
 
 
 
 
 
 
-4. References used 
+
+5. HTML Validation
+
+
+
+
+
+
+
+
+
+6. References used 
 
 http://guidefaq.com/a.php?qid=33736
 

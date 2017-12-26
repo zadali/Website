@@ -323,6 +323,7 @@ padding-bottom: 10px;
 
 #prescription {
   list-style-type:square;
+  margin-top: 50px;
 }
 
 /* CONTACT US FORM*/
@@ -362,6 +363,7 @@ input[type=submit]:hover {
   width: 33.33%;
   padding: 10px;
   height: 300px;
+  background-color:rgb(22, 110, 10);
 }
 /* hover to change colour of the columns on the main page*/
 div.column :hover{
@@ -535,7 +537,7 @@ ul {
 
 li {
   
-  line-height: 50px;
+  line-height: 30px;
   border-top: 1px solid #00FF40;
 }
 
@@ -565,6 +567,7 @@ ul a:hover {
   position: relative;
   height: auto;
   border-top: 0;
+  line-height: 20px;
 }
 
 [type="checkbox"] {
@@ -679,15 +682,11 @@ ul li:last-child {
 #feedbackarea {
   height: 750px;
 }
+.maps { 
+  margin-top: 15px;
+}
 
 /* }END OF MOBILE BREAKPOINT */
-
-
-
-
-
-
-
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
