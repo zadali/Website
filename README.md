@@ -49,6 +49,7 @@ I have included wire-frames of the website in the storyboard folder. I have also
 ![](Storyboards/tablet.jpg) 
 
 <strong> Desktop view </strong>
+
 <u> Index page </u>
 ![](Storyboards/page1.jpg) 
 
