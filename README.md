@@ -71,11 +71,15 @@ Name change ![](Testing/Feedback.png)
 
 Response 1  ![](Testing/tester1.jpg)
 
+
 Response 2  ![](Testing/tester2.jpg)
+
 
 Response 3  ![](Testing/tester3.jpg)
 
+
 Response 4  ![](Testing/tester4.jpg)
+
 
 Response 5  ![](Testing/tester5.jpg)
 
@@ -83,11 +87,17 @@ Response 5  ![](Testing/tester5.jpg)
 4. changes after user testing opinions
 
 
-Footer  ![](Testing/footeradded.PNG)
+Footer  
 
-leaflet  ![](Testing/leafletadded.PNG)
+![](Testing/footeradded.PNG)
 
-Name change ![](Testing/feedbackadded.png)
+leaflet  
+
+![](Testing/leafletadded.PNG)
+
+Name change 
+
+![](Testing/feedbackadded.PNG)
 
 
 
