@@ -8,42 +8,32 @@
   margin: 0 5%;
   margin-right: 1%;
 }
-
 #welcometomp{
   text-align: center;
 }
-
 header{
   text-align: center;
 }
-  
 a {
 	text-decoration: none;
 }
-
 a:link {
 	color: rgb(255, 0, 0);
 }
-
 a:visited {
 	color: rgb(255, 0, 0);
 }
-
 #deliverypic {
   display: block;
   margin: 0 auto;
 }
-
 /*body background colour*/
 h1 {
     background-color: black;
 }
-
 h2 {
   background-color: black;
-    
 }
-
 body {
 	background-color: rgb(0, 0, 0);
 }
@@ -54,7 +44,6 @@ p{
 margin: 0 auto;
 width: 80%;
 }
-
 ul {
 	color: white;
 }
@@ -67,14 +56,10 @@ td{
 tr{
   color: white;
 }
-
 /*website body*/
-
 body {
 	font-family: 'Lato', sans-serif;
-	
 }
-
 /*header*/
 header {
 	float: left;
@@ -88,9 +73,6 @@ header {
   background-image: linear-gradient(#1C4C1D,#27AE60);
   text-align: center;
 }
-
-
-
 /* footer */
 footer {
   position: static;
@@ -112,8 +94,6 @@ footer img{
   width: 35px;
   height: 35px;
 }
-	
-
 h1 {
 	font-family: 'Droid Serif', serif;
 	margin: 15px 0;
@@ -124,42 +104,31 @@ h1 {
 	box-sizing: border-box;
   text-transform: uppercase;
   text-align: center;
-	
 }
-
 h2 {
-    text-align: center;
+  text-align: center;
 	font-size: 2em;
 	text-transform: uppercase;
 	width: 100%;
   color: white;
 }
-
 h3 {
 	text-align: center;
 	color: white;
 }
-
-
-
 /*navigation*/
 nav {
-
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
   box-sizing: border-box;
   display: none;
- 
 }
-
 nav a {
 	font-weight: 800;
   padding: 10px 10px;
   display: block;
-  
 }
-
 a {
 	color: #6ab47b;
 }
@@ -169,26 +138,20 @@ nav a, nav a:visited {
 nav a:hover {
 	background-image: linear-gradient(#000000,#00F721);
 } 
-
 .show-menu {
   display: block;
 }
- 
-
 .logo div {
     width: 100px;
     height: 100px;
-    
     position: relative;
     animation-name: example;
     animation-duration: 4s;
 }
-
 @keyframes example {
     0%   {left:0px; top:0px;}
     25%  {left: 1800px; top:0px;}
 	75%  { left:0px; top: 0px;}
-	
 }
 .googlemap {
   width:450px;
@@ -196,12 +159,9 @@ nav a:hover {
   border: 2px solid #00FF22;
   display: block;
 }
-
 #about-us{
   text-align: center;
 }
-
-
 /*SLIDESHOW PURE CSS*/
 .slideshow {
   /* margin: 2em auto 1em;*/
@@ -211,14 +171,12 @@ nav a:hover {
    position: relative;
    margin: auto;
  }
- 
  .slideshow img {
    position: absolute;
    width: 500px;
    animation: round 16s infinite;
    opacity: 0;
  }
- 
  @keyframes round {
    25% {
      opacity: 1;
@@ -227,19 +185,14 @@ nav a:hover {
      opacity: 0;
    }
  }
- 
  img:nth-child(1) { animation-delay: 0s; }
  img:nth-child(2) { animation-delay: 5s; }
  img:nth-child(3) { animation-delay: 10s; }
  img:nth-child(4) { animation-delay: 15s; }
- 
-
- /* tabs */
-
+/* tabs */
 /*
   Hides the radio buttons ('input' tags) themselves, but not
   their labels, which form the tabs.
-  
   Also sets styles for the section tags and hides them.
 */
 main > input,
@@ -249,14 +202,10 @@ main > input,
   clear: both;
   width: 100%;
   color: white;
-    
-
   border: 1px solid rgb(2, 100, 10);
   border-top: none;
   color: rgb(247, 255, 247);
 }
-
- 
 label {
   display: block;
   box-sizing: border-box;
@@ -270,25 +219,19 @@ label {
   line-height: 3em;
   /* border-right: 1px solid #444; */
 }
-
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
   display: block;
   width: 100%;
 }
-
 #content1 dd {
   padding-bottom: 10px;
 }
 #content2 dd {
 padding-bottom: 10px;
 }
-
-
 /* Styles label elements (tabs) *only* when they're 'checked' */
-
-
 [id^="tab"]:checked + label {
   background: #158508;
   color: #030202;
@@ -296,19 +239,14 @@ padding-bottom: 10px;
 [id^="tab"]:checked + label .fa {
   color: #000000;
 }
-
 /* --------- Basic animation for our services --------- */
 /*
   this can all be commented out without
   affecting the functionality of the tabs
 */
-
-
 .tab_container section  {
   animation: fadeIn 0.7s ease-in-out;
 }
-
-
 @keyframes fadeIn {
 
   0% { 
@@ -318,14 +256,11 @@ padding-bottom: 10px;
   100% { 
   	opacity: 1;
   }
-  
 }
-
 #prescription {
   list-style-type:square;
   margin-top: 50px;
 }
-
 /* CONTACT US FORM*/
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -338,7 +273,6 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #4CAF50;
@@ -346,17 +280,12 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #000000;
 }
-
-
-
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -369,7 +298,6 @@ input[type=submit]:hover {
 div.column :hover{
 background-color: #00F721;
 }
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 /*home page colums*/
 .column {
@@ -378,10 +306,8 @@ background-color: #00F721;
 /* nav {
 width: 33;
 } */
-
  /* css for contact us webform */
-  
- #fname {
+#fname {
   float: left;
   clear: both;
   width: 100%;
@@ -395,7 +321,6 @@ width: 33;
   height: 30px;
   margin-bottom: 30px;
 }
-
 #email {
   float: left;
   clear: both;
@@ -403,7 +328,6 @@ width: 33;
   height: 30px;
   margin-bottom: 30px;
 }
-
 #number{
   float: left;
   clear: both;
@@ -414,16 +338,12 @@ width: 33;
 #branch {
   float: left;
 }
-
- 
 /* css for table */
 .table {
   width: 100%;
   overflow: scroll;
   overflow: auto;
 }
-
-
 /* contact us table */
 table {
   font-family: arial, sans-serif;
@@ -439,7 +359,6 @@ th {
 tr:nth-child(even) {
   background-color: #047504;
 }
-
 /* PRESCRIPTIONS WEBPAGE */
 
 p {
@@ -451,8 +370,6 @@ p {
   margin-left: 100px;
   margin-right: 100px;
   }
-  
-  
 /*hover over image */
 /* this is css for hover over image on prescriptions page */
 .container {
@@ -462,21 +379,17 @@ p {
   margin-right: auto;
   margin-top: 10px;
 }
- 
 #contactusform {
   background-color: grey;
 } 
-
 #feedbackform
 {
   background-color: grey;
 }
-
 #subjectlabel {
   background-color: grey;
   margin-left: 24%;
 }
-
 .image {
 opacity: 1;
 display: block;
@@ -485,7 +398,6 @@ height: auto;
 transition: .5s ease;
 backface-visibility: hidden;
 }
-
 .middle {
 transition: .5s ease;
 opacity: 0;
@@ -495,38 +407,28 @@ left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%)
 }
-
 .container:hover .image {
 opacity: 0.3;
 }
-
 .container:hover .middle {
 opacity: 1;
 }
-
 .text {
 background-color: #4CAF50;
 color: white;
 font-size: 16px;
 padding: 1px 45px;
 }
-
-
-
 .contentheading {
   text-align: center;
   border: none;
   width: 100%;
 }
-
-
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 ul {
   width: 50%;
   margin-left: auto;
@@ -534,22 +436,17 @@ ul {
   list-style-type: none;
   background: #000000;
 }
-
 li {
-  
   line-height: 30px;
   border-top: 1px solid #00FF40;
 }
-
 #pharmacyinfo {
   line-height: 20px;
 }
-
 #additionalinfo {
   line-height: 20px;
   border-top: none;
 }
-
 ul a {
   display: block;
   height: 100%;
@@ -559,31 +456,27 @@ ul a {
   position: relative;
   transition: background .3s;
 }
-
 ul a:after {
+  /* more animation arrow */
   content: '⇢';
   position: absolute;
   right: 10px;
 }
-
 ul a:hover {
   background: #cdcbc4;
 }
 /* CHECKBOX CONTAINER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .container {
   position: relative;
   height: auto;
   border-top: 0;
   line-height: 20px;
 }
-
 [type="checkbox"] {
   position: absolute;
   left: -9999px;
 }
-
 #infotab {
   background: #186D07;
   display: block;
@@ -595,25 +488,20 @@ ul a:hover {
   margin-top: -50px;
   transition: top .45s cubic-bezier(.44, .99, .48, 1);
 }
-
-
 #infotab:before,
 #infotab:after {
   position: absolute;
 }
-
 #infotab:before {
   content: 'More';
   left: 10px;
 }
-
 #infotab:after {
   content: '⇣●';
   right: 10px;
   -webkit-animation: sudo .85s linear infinite alternate;
   animation: sudo .85s linear infinite alternate;
 }
-
 @keyframes sudo {
   from {
     -webkit-transform: translateY(-2px);
@@ -624,7 +512,6 @@ ul a:hover {
     transform: translateY(2px);
   }
 }
-
 input[type="checkbox"] ~ ul {
   width: 100%;
   overflow: hidden;
@@ -633,7 +520,6 @@ input[type="checkbox"] ~ ul {
 }
 /* CHECKED STATE STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 [type="checkbox"]:checked ~ ul {
   /**
    * the value of the `max-height` property specifies the transition speed
@@ -642,27 +528,20 @@ input[type="checkbox"] ~ ul {
   
   max-height: 100%;
 }
-
 [type="checkbox"]:checked + #infotab {
   top: 100%;
-  
 }
-
 [type="checkbox"]:checked + #infotab:before {
   content: 'Less';
 }
-
 [type="checkbox"]:checked + #infotab:after {
   content: '⇡●';
 }
-
 ul li:last-child {
   margin-bottom: 50px;
 }
-
 #medicine-result {
   height: 900px;
-
 }
 #medicine-result form {
   width: 50%;
@@ -671,7 +550,6 @@ ul li:last-child {
   /* background-color: #186D07; */
   color: #fff;
 }
-
 #result {
   display: block;
   color: #fff;
@@ -679,12 +557,10 @@ ul li:last-child {
 #result li {
   display: block;
 }
-
 #wiki-result {
   display: block;
   margin: auto;
   width: 60%;
-
 }
 #leafletarea {
   height: 750px;
@@ -696,16 +572,12 @@ ul li:last-child {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
-
-  
-
 .maps { 
   margin-top: 15px;
 }
+/* END OF MOBILE BREAKPOINT */
 
-/* }END OF MOBILE BREAKPOINT */
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -713,7 +585,6 @@ ul li:last-child {
     width: 44%;
     display: inline-block;
   }
-  
   .maps { 
     text-align: center;
   }
@@ -731,14 +602,7 @@ ul li:last-child {
 .slideshow {
    height: 300px;
  }
- 
-
-
-  
 } /* END FIRST BREAKPOINT */
-
-
-
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
@@ -763,14 +627,11 @@ ul li:last-child {
   .column {
     width: 31.25%;
 }
-
 .row{
   text-align: center;
   margin-left: 3%;
   margin-right: 0%;
-  
 }
-
  /* css for search bar  */
   input[type=text] {
       width: 130px;
@@ -800,8 +661,4 @@ ul li:last-child {
 .slideshow {
   height: 400px;
 }
-
-
-
-
 }
