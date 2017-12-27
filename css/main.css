@@ -541,6 +541,15 @@ li {
   border-top: 1px solid #00FF40;
 }
 
+#pharmacyinfo {
+  line-height: 20px;
+}
+
+#additionalinfo {
+  line-height: 20px;
+  border-top: none;
+}
+
 ul a {
   display: block;
   height: 100%;
