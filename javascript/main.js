@@ -90,7 +90,9 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
     demoJSON.innerHTML = theData;
   }
 
-  // the API call is triggered once the user submits a query
+  if (searchForm)
+  {
+    // the API call is triggered once the user submits a query
   searchForm.addEventListener("submit", function(ev){
     // complete the request url
     let wiki = baseURL + queryBox.value;
@@ -114,5 +116,7 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
     queryBox.value = "";
     ev.preventDefault();
   }, false);
+  }
+  
 
 }());

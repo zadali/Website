@@ -14,7 +14,7 @@ To start the development of the website, I created 8 html pages each being a pag
 
 1. <strong> <u> Development process </strong> </u>
 
-<u> Problem and issues solved </u>
+<strong> Problem and issues solved </strong>
 
 Whilst I have been creating the website, I have come across numerous problems; some harder to fix than others. 
 
@@ -29,10 +29,24 @@ Image 2 – API problem resolved (see below).
 ![](Images/apiproblemresolved.png) 
 
 
+Another error which I had was with the Javascript console error. I had a search form on one of the pages but the console was looking for a search form on all of the HTML pages. 
 
-2. <strong> <u> Storyboard </strong> </u>
+![](Validation/searchformerror.PNG) 
+
+The way I fixed this was that I added the Javascript into a IF statement so that the webpage triggers the javascript if it finds the search form on the HTML. 
+
+![](Validation/searchformfixed.PNG)
+
+
+2. <strong>  Storyboard </strong> 
 
 I have included wire-frames of the website in the storyboard folder. I have also attached them below with the hyperlinks. 
+
+<strong> Mobile view </strong>
+![](Storyboards/mobile.jpg) 
+
+<strong> Tablet view </strong>
+![](Storyboards/tablet.jpg) 
 
 <u> Index page </u>
 ![](Storyboards/page1.jpg) 
@@ -56,27 +70,29 @@ I have included wire-frames of the website in the storyboard folder. I have also
 ![](Storyboards/page7.jpg) 
 
 
+
+
 3.  <strong> <u> User Testing </strong> </u>
 
 Testing questionnaire 
 ![](Testing/Questionnaire.png)
 
 
- <u>Testing results </U>
+ <strong>Testing results </strong>
 
 I have also conducted user testing of my website to see what users have to say about my website and if there are any improvments which I can make. I have created a questionaire and gave it to 5 users to test. One of the main improvements which I recieved was that I should consider having a footer on my website. This is because it would give the website a better look and feel of a good professional website. I have taken this on board and have decided to create a footer for my website. 
 
-Footer improvement  
+Improvement 1 - Footer improvement  
 ![](Testing/footer.png)
 
 Another improvement was for the "leaflets page". The download links for the leaflet pdf were just text and an improvment from some of the users were that I should consider using images as downlaod images instead of text. I have therefore changed this and have included images as the download links for the pdf leaflets.
 
-Leaflet improvement 
+Improvement 2 - Leaflet improvement 
 ![](Testing/leaflet_page.png)
 
 Another improvement highlighted by a few of the users was that I should change the name of the final page from "Report" to "feedback". This is because the users didn't identify any prolems with the website so instead thought it would be better to change the name of the webpage to feedback which of course can be on going and feedback is always welcome on board. 
 
-Name change 
+Improvement 3 - Name change 
 ![](Testing/Feedback.png)
 
 
@@ -104,15 +120,15 @@ Response 5
 4. <u> <strong> changes after user testing opinions </strong> </u>
 
 
-Footer  
+CHANGE 1 - Footer  
 
 ![](Testing/footeradded.PNG)
 
-leaflet  
+CHANGE 2 - leaflet  
 
 ![](Testing/leafletadded.PNG)
 
-Name change 
+CHANGE 3 - Name change 
 
 ![](Testing/feedbackadded.PNG)
 
@@ -122,7 +138,7 @@ Name change
 
 5. <strong> <u> HTML Validation </strong> </u>
 
-below the the screen shots to show that I have 0 errors for my HTML and CSS code
+Below the the screen shots to show that I have 0 errors for my HTML and CSS code.
 
 Index Page 
 ![](Validation/index.PNG)
