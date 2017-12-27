@@ -1,6 +1,6 @@
 # Midnight Pharmacy Website
 
-Background 
+ <u> Background </U>
 
 This Pharmacy website was created for a real client based in Nottingham. 
 
@@ -12,9 +12,9 @@ The website will have a series of different pages which will include different c
 
 To start the development of the website, I created 8 html pages each being a page of the website. I then from the index.html page created each page to be hyperlinked to each other. 
 
-1. Development process
+1. <strong> <u> Development process </strong> </u>
 
-Problem and issues solved
+<u> Problem and issues solved </u>
 
 Whilst I have been creating the website, I have come across numerous problems; some harder to fix than others. 
 
@@ -30,43 +30,54 @@ Image 2 – API problem resolved (see below).
 
 
 
-2. Storyboard 
+2. <strong> <u> Storyboard </strong> </u>
 
 I have included wire-frames of the website in the storyboard folder. I have also attached them below with the hyperlinks. 
 
-Index page  ![](Storyboards/page1.jpg) 
+<u> Index page </u>
+![](Storyboards/page1.jpg) 
 
-Our services page  ![](Storyboards/page2.jpg)
+<u> Our services page </u>
+![](Storyboards/page2.jpg)
 
-Prescriptions page   ![](Storyboards/page3.jpg) 
+<u> Prescriptions page </u>  
+![](Storyboards/page3.jpg) 
 
-About us page   ![](Storyboards/page4.jpg) 
+<u> About us page </u>
+![](Storyboards/page4.jpg) 
 
-contact us page   ![](Storyboards/page5.jpg) 
+<u> Contact us page </u>  
+![](Storyboards/page5.jpg) 
 
-Leaflets page  ![](Storyboards/page6.jpg) 
+<u> Leaflets page  </u>
+![](Storyboards/page6.jpg) 
 
-Feedback page - ![](Storyboards/page7.jpg) 
-
-
-3. User Testing
-
-Testing questionnaire - ![](Testing/Questionnaire.png)
+<u> Feedback page </u>
+![](Storyboards/page7.jpg) 
 
 
-Testing results 
+3.  <strong> <u> User Testing </strong> </u>
+
+Testing questionnaire 
+![](Testing/Questionnaire.png)
+
+
+ <u>Testing results </U>
 
 I have also conducted user testing of my website to see what users have to say about my website and if there are any improvments which I can make. I have created a questionaire and gave it to 5 users to test. One of the main improvements which I recieved was that I should consider having a footer on my website. This is because it would give the website a better look and feel of a good professional website. I have taken this on board and have decided to create a footer for my website. 
 
-Footer improvement  ![](Testing/footer.png)
+Footer improvement  
+![](Testing/footer.png)
 
 Another improvement was for the "leaflets page". The download links for the leaflet pdf were just text and an improvment from some of the users were that I should consider using images as downlaod images instead of text. I have therefore changed this and have included images as the download links for the pdf leaflets.
 
-Leaflet improvement - ![](Testing/leaflet_page.png)
+Leaflet improvement 
+![](Testing/leaflet_page.png)
 
 Another improvement highlighted by a few of the users was that I should change the name of the final page from "Report" to "feedback". This is because the users didn't identify any prolems with the website so instead thought it would be better to change the name of the webpage to feedback which of course can be on going and feedback is always welcome on board. 
 
-Name change ![](Testing/Feedback.png)
+Name change 
+![](Testing/Feedback.png)
 
 
 Response 1  
@@ -90,7 +101,7 @@ Response 5
 ![](Testing/tester5.jpg)
 
 
-4. changes after user testing opinions
+4. <u> <strong> changes after user testing opinions </strong> </u>
 
 
 Footer  
@@ -109,43 +120,43 @@ Name change
 
 
 
-5. HTML Validation
+5. <strong> <u> HTML Validation </strong> </u>
 
 below the the screen shots to show that I have 0 errors for my HTML and CSS code
 
-index page 
+Index Page 
 ![](Validation/index.PNG)
 
 
-about us  
+About Us  
 ![](Validation/aboutus.PNG)
-<br>
 
-contact us 
+
+Contact Us 
 ![](Validation/contactus.PNG)
-<br>
 
-feedback  
+
+Feedback  
 ![](Validation/feedback.PNG)
-<br>
 
-leaflet page 
+
+Leaflet Page 
 ![](Validation/leaflet.PNG)
 
 
-medicine page 
+Medicine Page 
 ![](Validation/medicine.PNG)
 
 
-our services page 
+Our Services page 
 ![](Validation/ourservices.PNG)
 
 
-prescription page 
+Prescription page 
 ![](Validation/prescription.PNG)
 
 
-css code ![](Validation/css.PNG)
+Css code ![](Validation/css.PNG)
 
 
 
@@ -153,7 +164,7 @@ css code ![](Validation/css.PNG)
 
 
 
-6. References used 
+6. <strong> <u> References used </strong> </u>
 
 http://guidefaq.com/a.php?qid=33736
 
