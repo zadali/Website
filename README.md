@@ -22,11 +22,11 @@ One major issue which I faced was when I was creating the google map APIs for on
 
 
 Image 1 – API problem (see below)
- ![](Images/apierror.jpeg) 
+ ![](Validation/apierror.jpeg) 
 
 Image 2 – API problem resolved (see below).
  
-![](Images/apiproblemresolved.png) 
+![](Validation/apiproblemresolved.png) 
 
 
 Another error which I had was with the Javascript console error. I had a search form on one of the pages but the console was looking for a search form on all of the HTML pages. 
@@ -48,6 +48,7 @@ I have included wire-frames of the website in the storyboard folder. I have also
 <strong> Tablet view </strong>
 ![](Storyboards/tablet.jpg) 
 
+<strong> Desktop view </strong>
 <u> Index page </u>
 ![](Storyboards/page1.jpg) 
 
@@ -82,17 +83,17 @@ Testing questionnaire
 
 I have also conducted user testing of my website to see what users have to say about my website and if there are any improvments which I can make. I have created a questionaire and gave it to 5 users to test. One of the main improvements which I recieved was that I should consider having a footer on my website. This is because it would give the website a better look and feel of a good professional website. I have taken this on board and have decided to create a footer for my website. 
 
-Improvement 1 - Footer improvement  
+<strong> Improvement 1 - Footer improvement  </strong>
 ![](Testing/footer.png)
 
 Another improvement was for the "leaflets page". The download links for the leaflet pdf were just text and an improvment from some of the users were that I should consider using images as downlaod images instead of text. I have therefore changed this and have included images as the download links for the pdf leaflets.
 
-Improvement 2 - Leaflet improvement 
+<strong> Improvement 2 - Leaflet improvement </strong>
 ![](Testing/leaflet_page.png)
 
 Another improvement highlighted by a few of the users was that I should change the name of the final page from "Report" to "feedback". This is because the users didn't identify any prolems with the website so instead thought it would be better to change the name of the webpage to feedback which of course can be on going and feedback is always welcome on board. 
 
-Improvement 3 - Name change 
+<strong> Improvement 3 - Name change </strong>
 ![](Testing/Feedback.png)
 
 
@@ -117,7 +118,7 @@ Response 5
 ![](Testing/tester5.jpg)
 
 
-4. <u> <strong> changes after user testing opinions </strong> </u>
+4. <u> <strong> Changes after user testing opinions </strong> </u>
 
 
 CHANGE 1 - Footer  
@@ -172,7 +173,8 @@ Prescription page
 ![](Validation/prescription.PNG)
 
 
-Css code ![](Validation/css.PNG)
+Css code 
+![](Validation/css.PNG)
 
 
 

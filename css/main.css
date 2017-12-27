@@ -592,6 +592,7 @@ ul a:hover {
   cursor: pointer;
   position: absolute;
   top: 0;
+  margin-top: -50px;
   transition: top .45s cubic-bezier(.44, .99, .48, 1);
 }
 
@@ -691,6 +692,15 @@ ul li:last-child {
 #feedbackarea {
   height: 750px;
 }
+#feedbackinfo p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+  
+
 .maps { 
   margin-top: 15px;
 }
