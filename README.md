@@ -71,16 +71,16 @@ Name change ![](Testing/Feedback.png)
 
 Response 1  ![](Testing/tester1.jpg)
 
-
+<br>
 Response 2  ![](Testing/tester2.jpg)
 
-
+<br>
 Response 3  ![](Testing/tester3.jpg)
 
-
+<br>
 Response 4  ![](Testing/tester4.jpg)
 
-
+<br>
 Response 5  ![](Testing/tester5.jpg)
 
 
@@ -108,20 +108,28 @@ Name change
 below the the screen shots to show that I have 0 errors for my HTML and CSS code
 
 index page ![](Validation/index.PNG)
+<br>
 
 about us  ![](Validation/aboutus.PNG)
+<br>
 
 contact us ![](Validation/contactus.PNG)
+<br>
 
 feedback  ![](Validation/feedback.PNG)
+<br>
 
 leaflet page ![](Validation/leaflet.PNG)
+<br>
 
 medicine page ![](Validation/medicine.PNG)
+<br>
 
 our services page ![](Validation/ourservices.PNG)
+<br>
 
 prescription page ![](Validation/prescription.PNG)
+<br>
 
 css code ![](Validation/css.PNG)
 
