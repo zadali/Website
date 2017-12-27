@@ -69,19 +69,25 @@ Another improvement highlighted by a few of the users was that I should change t
 Name change ![](Testing/Feedback.png)
 
 
-Response 1  ![](Testing/tester1.jpg)
+Response 1  
+![](Testing/tester1.jpg)
 
-<br>
-Response 2  ![](Testing/tester2.jpg)
 
-<br>
-Response 3  ![](Testing/tester3.jpg)
+Response 2  
+![](Testing/tester2.jpg)
 
-<br>
-Response 4  ![](Testing/tester4.jpg)
 
-<br>
-Response 5  ![](Testing/tester5.jpg)
+Response 3  
+
+![](Testing/tester3.jpg)
+
+
+Response 4  
+![](Testing/tester4.jpg)
+
+
+Response 5  
+![](Testing/tester5.jpg)
 
 
 4. changes after user testing opinions
@@ -107,29 +113,37 @@ Name change
 
 below the the screen shots to show that I have 0 errors for my HTML and CSS code
 
-index page ![](Validation/index.PNG)
+index page 
+![](Validation/index.PNG)
+
+
+about us  
+![](Validation/aboutus.PNG)
 <br>
 
-about us  ![](Validation/aboutus.PNG)
+contact us 
+![](Validation/contactus.PNG)
 <br>
 
-contact us ![](Validation/contactus.PNG)
+feedback  
+![](Validation/feedback.PNG)
 <br>
 
-feedback  ![](Validation/feedback.PNG)
-<br>
+leaflet page 
+![](Validation/leaflet.PNG)
 
-leaflet page ![](Validation/leaflet.PNG)
-<br>
 
-medicine page ![](Validation/medicine.PNG)
-<br>
+medicine page 
+![](Validation/medicine.PNG)
 
-our services page ![](Validation/ourservices.PNG)
-<br>
 
-prescription page ![](Validation/prescription.PNG)
-<br>
+our services page 
+![](Validation/ourservices.PNG)
+
+
+prescription page 
+![](Validation/prescription.PNG)
+
 
 css code ![](Validation/css.PNG)
 
